@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Damageable : MonoBehaviour
+public class DamageManager : MonoBehaviour
 {
     private Health health;
-    // Start is called before the first frame update
+
     private void Start()
     {
         health = GetComponent<Health>();
