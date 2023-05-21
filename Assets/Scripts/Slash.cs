@@ -6,7 +6,8 @@ public class Slash : MonoBehaviour
 {
     private SkillCoolDown skill;
 
-    private void Start() {
+    private void Start()
+    {
         skill = GetComponent<SkillCoolDown>();
     }
 
