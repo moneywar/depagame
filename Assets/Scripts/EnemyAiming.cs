@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Aiming : MonoBehaviour
+public class EnemyAiming : MonoBehaviour
 {
     private GameObject target;
     public bool HasTarget { get; private set; }
