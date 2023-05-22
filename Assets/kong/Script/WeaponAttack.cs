@@ -20,7 +20,7 @@ public class WeaponAttack : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
-        if(collision.gameObject.tag == "EnemyCheck"){
+        if(collision.gameObject.tag == "Enemy"){
             collision.gameObject.GetComponentInParent<Health>().decreaseHP(curWeaponDamage);
             playerMana.ManaRegenOnHit(ManaRegen);
         }
