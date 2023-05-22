@@ -123,6 +123,22 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &491535000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 395357374810891020, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+  m_PrefabInstance: {fileID: 8382591966050205527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &491535011 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 395357374810891011, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+  m_PrefabInstance: {fileID: 8382591966050205527}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491535000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e3326e2990b9548b18316c0d8fcb6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b8e745db2de0549aba53eb5a6fd31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1003722244848807306}
+  Player: {fileID: 491535000}
 --- !u!1 &771892067
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,22 +687,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895404531}
   m_CullTransparentMesh: 1
---- !u!1 &1003722244848807306 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8771044956013449949, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
-  m_PrefabInstance: {fileID: 8382591966050205527}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1003722244848807317 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8771044956013449956, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
-  m_PrefabInstance: {fileID: 8382591966050205527}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003722244848807306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e3326e2990b9548b18316c0d8fcb6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8382591966050205527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -694,6 +694,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 395357374810891020, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 395357374810891070, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 395357374934629296, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 395357375709352732, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395357375709352734, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: playerMana
+      value: 
+      objectReference: {fileID: 491535011}
+    - target: {fileID: 395357376278687846, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395357376278687846, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395357376343503309, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395357376343503309, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8771044956013449949, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
       propertyPath: m_Name
       value: Hero
@@ -745,7 +781,7 @@ PrefabInstance:
     - target: {fileID: 8771044956428100840, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
       propertyPath: playerMana
       value: 
-      objectReference: {fileID: 1003722244848807317}
+      objectReference: {fileID: 0}
     - target: {fileID: 8771044957223390056, guid: 55527125df906294fa51491d2bd8bb6c, type: 3}
       propertyPath: m_IsActive
       value: 0

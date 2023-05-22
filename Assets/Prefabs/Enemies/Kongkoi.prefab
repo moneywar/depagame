@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6980066538799940054}
   - component: {fileID: 6956081834625165100}
   - component: {fileID: 5495134152273499978}
-  - component: {fileID: 356436191215357798}
+  - component: {fileID: 1761953453243947038}
   - component: {fileID: 827756089579424421}
   - component: {fileID: 3958368026886921275}
   - component: {fileID: 7634852168833390433}
@@ -113,7 +113,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!58 &356436191215357798
+--- !u!58 &1761953453243947038
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
