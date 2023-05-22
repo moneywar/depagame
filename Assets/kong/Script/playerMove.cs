@@ -31,7 +31,9 @@ public class playerMove : MonoBehaviour
 
         if(IsPressSpace){
             Vector3 dashPosition = moveDirection * speed;
-            rb.velocity = dashPosition * 20;
+            for(int i=0;i<10;i++){
+                rb.velocity = new Vector2(dashPosition.x + 10,dashPosition.y + 10);
+            }
             // RaycastHit2D rayCastHit = Physics2D.Raycast(transform.position,moveDirection,10,);
             IsPressSpace = false;
         }
