@@ -2,15 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+public class Skill : MonoBehaviour
 {
-    [SerializeField] private string itemName;
-    public string ItemName { get => itemName; }
+    [SerializeField] private string skillName;
+    public string SkillName { get => skillName; }
     [SerializeField] private string description;
     public string Description { get => description; }
     public Sprite image;
-
-    public string GetItemName(){
-        return ItemName;
-    }
 }
